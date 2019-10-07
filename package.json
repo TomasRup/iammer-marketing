@@ -1,0 +1,39 @@
+{
+  "name": "iammer-marketing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "start.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TomasRup/iammer-marketing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TomasRup/iammer-marketing/issues"
+  },
+  "homepage": "https://github.com/TomasRup/iammer-marketing#readme",
+  "dependencies": {
+    "next": "^9.0.8",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2"
+  },
+  "devDependencies": {
+    "@types/node": "^12.7.11",
+    "@types/react": "^16.9.5",
+    "husky": "^3.0.8",
+    "tslint": "^5.20.0",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^3.6.3"
+  },
+  "husky": {
+    "hooks": {
+      "post-merge": "git submodule update --init"
+    }
+  }
+}
