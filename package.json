@@ -1,23 +1,14 @@
 {
   "name": "iammer-marketing",
+  "engines": {
+    "node": "10.16.3"
+  },
   "version": "1.0.0",
-  "description": "",
-  "main": "start.js",
   "scripts": {
     "dev": "next",
     "build": "next build",
     "start": "next start"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/TomasRup/iammer-marketing.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/TomasRup/iammer-marketing/issues"
-  },
-  "homepage": "https://github.com/TomasRup/iammer-marketing#readme",
   "dependencies": {
     "next": "^9.0.8",
     "react": "^16.10.2",
