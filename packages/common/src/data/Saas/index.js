@@ -1,69 +1,56 @@
 import Client1 from '../../assets/image/saas/testimonial/client-1.jpg';
-import Client2 from '../../assets/image/agency/client/denny.png';
 
-export const Faq = [
-  {
+export const Faq = [{
     id: 1,
     expend: true,
     title: 'How to contact with Customer Service?',
-    description:
-      'Our Customer Experience Team is available 7 days a week and we offer 2 ways to get in contact.Email and Chat . We try to reply quickly, so you need not to wait too long for a response!. ',
+    description: 'Our Customer Experience Team is available 7 days a week and we offer 2 ways to get in contact.Email and Chat . We try to reply quickly, so you need not to wait too long for a response!. ',
   },
   {
     id: 2,
     title: 'App installation failed, how to update system information?',
-    description:
-      'Please read the documentation carefully . We also have some online  video tutorials regarding this issue . If the problem remains, Please Open a ticket in the support forum . ',
+    description: 'Please read the documentation carefully . We also have some online  video tutorials regarding this issue . If the problem remains, Please Open a ticket in the support forum . ',
   },
   {
     id: 3,
     title: 'Website reponse taking time, how to improve?',
-    description:
-      'At first, Please check your internet connection . We also have some online  video tutorials regarding this issue . If the problem remains, Please Open a ticket in the support forum .',
+    description: 'At first, Please check your internet connection . We also have some online  video tutorials regarding this issue . If the problem remains, Please Open a ticket in the support forum .',
   },
   {
     id: 4,
     title: 'New update fixed all bug and issues?',
-    description:
-      'We are giving the update of this theme continuously . You will receive an email Notification when we push an update. Always try to be updated with us .',
+    description: 'We are giving the update of this theme continuously . You will receive an email Notification when we push an update. Always try to be updated with us .',
   },
   {
     id: 4,
     title: 'New update fixed all bug and issues?',
-    description:
-      "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
+    description: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
   },
 ];
 
-export const Features = [
-  {
+export const Features = [{
     id: 1,
     icon: 'flaticon-creative',
     title: 'Powerful Features',
-    description:
-      'Automate time consuming tasks like organising expenses ,tracking your time and following up with clients ',
+    description: 'Automate time consuming tasks like organising expenses ,tracking your time and following up with clients ',
   },
   {
     id: 2,
     icon: 'flaticon-briefing',
     title: 'Easy Invoicing',
-    description:
-      'Want to surprice your clients with professional looking invoices ? Then you are some clicks behind .',
+    description: 'Want to surprice your clients with professional looking invoices ? Then you are some clicks behind .',
   },
   {
     id: 3,
     icon: 'flaticon-flask',
     title: 'Easy To Use',
-    description:
-      'Very Simple and intuitive. So you have to spend less time in paperwork and impress your customer with looks',
+    description: 'Very Simple and intuitive. So you have to spend less time in paperwork and impress your customer with looks',
   },
 ];
 
-export const Footer_Data = [
-  {
+export const Footer_Data = [{
     title: 'About Us',
-    menuItems: [
-      {
+    menuItems: [{
         url: '#',
         text: 'Support Center',
       },
@@ -87,8 +74,7 @@ export const Footer_Data = [
   },
   {
     title: 'Our Information',
-    menuItems: [
-      {
+    menuItems: [{
         url: '#',
         text: 'Return Policy',
       },
@@ -112,8 +98,7 @@ export const Footer_Data = [
   },
   {
     title: 'My Account',
-    menuItems: [
-      {
+    menuItems: [{
         url: '#',
         text: 'Press inquiries',
       },
@@ -137,8 +122,7 @@ export const Footer_Data = [
   },
   {
     title: 'Policy',
-    menuItems: [
-      {
+    menuItems: [{
         url: '#',
         text: 'Application security',
       },
@@ -158,76 +142,63 @@ export const Footer_Data = [
   },
 ];
 
-export const Service = [
-  {
+export const Service = [{
     id: 1,
     icon: 'flaticon-briefing',
     title: 'App Development',
-    description:
-      'We are specialized at custom Saas Application Development and special features .',
+    description: 'We are specialized at custom Saas Application Development and special features .',
   },
   {
     id: 2,
     icon: 'flaticon-trophy',
     title: '10 Times Award',
-    description:
-      'We are globally recognised for our services and won a lot of prices around the world .',
+    description: 'We are globally recognised for our services and won a lot of prices around the world .',
   },
   {
     id: 3,
     icon: 'flaticon-atom',
     title: 'Cloud Stroage',
-    description:
-      'LiteSpeed Web Server known for its high performance and low resource consumption.',
+    description: 'LiteSpeed Web Server known for its high performance and low resource consumption.',
   },
   {
     id: 4,
     icon: 'flaticon-ruler',
     title: 'Client Satisfaction',
-    description:
-      'Client Satisfaction is our first priority and We are best at it .Keep In Touch.',
+    description: 'Client Satisfaction is our first priority and We are best at it .Keep In Touch.',
   },
   {
     id: 5,
     icon: 'flaticon-creative',
     title: 'UX Planning',
-    description:
-      'We provide the best UI/UX Design by following the latest trends of the market  .',
+    description: 'We provide the best UI/UX Design by following the latest trends of the market  .',
   },
   {
     id: 6,
     icon: 'flaticon-conversation',
     title: 'Customer Support',
-    description:
-      'A Dedicated support team is always ready to provide best support to our customers.',
+    description: 'A Dedicated support team is always ready to provide best support to our customers.',
   },
 ];
 
-export const Timeline = [
-  {
+export const Timeline = [{
     title: 'Wireframing for project',
-    description:
-      'We respect our customer opinions and deals with them with perfect wireframing.',
+    description: 'We respect our customer opinions and deals with them with perfect wireframing.',
   },
   {
     title: 'UI/UX for project',
-    description:
-      'We provide the best UI/UX Design by following the latest trends of the market .',
+    description: 'We provide the best UI/UX Design by following the latest trends of the market .',
   },
   {
     title: 'Negotiation about project',
-    description:
-      'After the negotiation is done , We start to build the project with latest technology .',
+    description: 'After the negotiation is done , We start to build the project with latest technology .',
   },
 ];
 
-export const Testimonial = [
-  {
+export const Testimonial = [{
     id: 1,
     name: 'Jon Doe',
     designation: 'Ceo of Invission Co.',
-    comment:
-      'Love to work with this designer in every our future project to ensure we are going to build best prototyping features.',
+    comment: 'Love to work with this designer in every our future project to ensure we are going to build best prototyping features.',
     avatar_url: Client1,
     social_icon: 'flaticon-instagram',
   },
@@ -235,15 +206,13 @@ export const Testimonial = [
     id: 2,
     name: 'Roman Ul Oman',
     designation: 'Co-founder of QatarDiaries',
-    comment:
-      'Impressed with master class support of the team and really look forward for the future. A true passionate team.',
-    avatar_url: Client2,
+    comment: 'Impressed with master class support of the team and really look forward for the future. A true passionate team.',
+    avatar_url: Client1,
     social_icon: 'flaticon-twitter-logo-silhouette',
   },
 ];
 
-export const MENU_ITEMS = [
-  {
+export const MENU_ITEMS = [{
     label: 'Home',
     path: '#banner_section',
     offset: '70',
@@ -275,8 +244,7 @@ export const MENU_ITEMS = [
   },
 ];
 
-export const MONTHLY_PRICING_TABLE = [
-  {
+export const MONTHLY_PRICING_TABLE = [{
     freePlan: true,
     name: 'Basic Account',
     description: 'For Small teams or group who need to build website ',
@@ -284,8 +252,7 @@ export const MONTHLY_PRICING_TABLE = [
     priceLabel: 'Only for first month',
     buttonLabel: 'CREATE FREE ACCOUNT',
     url: '#',
-    listItems: [
-      {
+    listItems: [{
         content: 'Drag & Drop Builder',
       },
       {
@@ -309,8 +276,7 @@ export const MONTHLY_PRICING_TABLE = [
     priceLabel: 'Per month & subscription yearly',
     buttonLabel: 'START FREE TRIAL',
     url: '#',
-    listItems: [
-      {
+    listItems: [{
         content: 'Drag & Drop Builder',
       },
       {
@@ -334,8 +300,7 @@ export const MONTHLY_PRICING_TABLE = [
     priceLabel: 'Per month & subscription yearly',
     buttonLabel: 'START FREE TRIAL',
     url: '#',
-    listItems: [
-      {
+    listItems: [{
         content: 'Drag & Drop Builder',
       },
       {
@@ -354,8 +319,7 @@ export const MONTHLY_PRICING_TABLE = [
   },
 ];
 
-export const YEARLY_PRICING_TABLE = [
-  {
+export const YEARLY_PRICING_TABLE = [{
     freePlan: true,
     name: 'Basic Account',
     description: 'For a single client or team who need to build website ',
@@ -363,8 +327,7 @@ export const YEARLY_PRICING_TABLE = [
     priceLabel: 'Only for first month',
     buttonLabel: 'CREATE FREE ACCOUNT',
     url: '#',
-    listItems: [
-      {
+    listItems: [{
         content: 'Drag & Drop Builder',
       },
       {
@@ -388,8 +351,7 @@ export const YEARLY_PRICING_TABLE = [
     priceLabel: 'Per month & subscription yearly',
     buttonLabel: 'START FREE TRIAL',
     url: '#',
-    listItems: [
-      {
+    listItems: [{
         content: 'Unlimited secure storage',
       },
       {
@@ -413,8 +375,7 @@ export const YEARLY_PRICING_TABLE = [
     priceLabel: 'Per month & subscription yearly',
     buttonLabel: 'START FREE TRIAL',
     url: '#',
-    listItems: [
-      {
+    listItems: [{
         content: 'Drag & Drop Builder',
       },
       {

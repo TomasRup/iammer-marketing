@@ -2108,20 +2108,20 @@ module.exports.strategies = {
 
 /***/ }),
 
-/***/ "../../node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F_app&absolutePagePath=private-next-pages%2F_app.js!./":
-/*!************************************************************************************************************************************************************************************!*\
-  !*** /Users/trupsys/Personal/iammer-marketing/node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F_app&absolutePagePath=private-next-pages%2F_app.js ***!
-  \************************************************************************************************************************************************************************************/
+/***/ "../../node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F_app&absolutePagePath=private-next-pages%2F_app.jsx!./":
+/*!*************************************************************************************************************************************************************************************!*\
+  !*** /Users/trupsys/Personal/iammer-marketing/node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F_app&absolutePagePath=private-next-pages%2F_app.jsx ***!
+  \*************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
     (window.__NEXT_P=window.__NEXT_P||[]).push(["/_app", function() {
-      var page = __webpack_require__(/*! private-next-pages/_app.js */ "./pages/_app.js")
+      var page = __webpack_require__(/*! private-next-pages/_app.jsx */ "./pages/_app.jsx")
       if(true) {
-        module.hot.accept(/*! private-next-pages/_app.js */ "./pages/_app.js", function() {
+        module.hot.accept(/*! private-next-pages/_app.jsx */ "./pages/_app.jsx", function() {
           if(!next.router.components["/_app"]) return
-          var updatedPage = __webpack_require__(/*! private-next-pages/_app.js */ "./pages/_app.js")
+          var updatedPage = __webpack_require__(/*! private-next-pages/_app.jsx */ "./pages/_app.jsx")
           next.router.update("/_app", updatedPage.default || updatedPage)
         })
       }
@@ -8380,10 +8380,10 @@ module.exports = (__webpack_require__(/*! dll-reference dll_1ba9fd1898d1834f52ed
 
 /***/ }),
 
-/***/ "./pages/_app.js":
-/*!***********************!*\
-  !*** ./pages/_app.js ***!
-  \***********************/
+/***/ "./pages/_app.jsx":
+/*!************************!*\
+  !*** ./pages/_app.jsx ***!
+  \************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -8396,7 +8396,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _redq_reuse_modal_es_index_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @redq/reuse-modal/es/index.css */ "../../node_modules/@redq/reuse-modal/es/index.css");
 /* harmony import */ var _redq_reuse_modal_es_index_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_redq_reuse_modal_es_index_css__WEBPACK_IMPORTED_MODULE_3__);
 
-var _jsxFileName = "/Users/trupsys/Personal/iammer-marketing/packages/landing/pages/_app.js";
+var _jsxFileName = "/Users/trupsys/Personal/iammer-marketing/packages/landing/pages/_app.jsx";
 
 
 
@@ -8437,5 +8437,5 @@ module.exports = dll_1ba9fd1898d1834f52ed;
 
 /***/ })
 
-},[["../../node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F_app&absolutePagePath=private-next-pages%2F_app.js!./","static/runtime/webpack.js","styles"]]]);
+},[["../../node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F_app&absolutePagePath=private-next-pages%2F_app.jsx!./","static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=_app.js.map

@@ -1527,10 +1527,10 @@ module.exports = __webpack_require__(/*! ./dist/pages/_document */ "../../node_m
 
 /***/ }),
 
-/***/ "./pages/_document.js":
-/*!****************************!*\
-  !*** ./pages/_document.js ***!
-  \****************************/
+/***/ "./pages/_document.jsx":
+/*!*****************************!*\
+  !*** ./pages/_document.jsx ***!
+  \*****************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -1564,7 +1564,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/Users/trupsys/Personal/iammer-marketing/packages/landing/pages/_document.js";
+var _jsxFileName = "/Users/trupsys/Personal/iammer-marketing/packages/landing/pages/_document.jsx";
 
 
 
@@ -1695,13 +1695,13 @@ function (_Document) {
 /***/ }),
 
 /***/ 1:
-/*!*********************************************!*\
-  !*** multi private-next-pages/_document.js ***!
-  \*********************************************/
+/*!**********************************************!*\
+  !*** multi private-next-pages/_document.jsx ***!
+  \**********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! private-next-pages/_document.js */"./pages/_document.js");
+module.exports = __webpack_require__(/*! private-next-pages/_document.jsx */"./pages/_document.jsx");
 
 
 /***/ }),

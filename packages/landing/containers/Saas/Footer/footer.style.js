@@ -1,7 +1,7 @@
 import styled from 'styled-components';
-import FooterImage from 'common/src/assets/image/hosting/footer-bg.png';
+import FooterImage from 'common/src/assets/image/saas/footer-bg.png';
 
-const FooterWrapper = styled.footer`
+const FooterWrapper = styled.footer `
   position: relative;
   background-color: #f9fbfd;
   overflow: hidden;
@@ -40,9 +40,9 @@ const FooterWrapper = styled.footer`
   }
 `;
 
-const List = styled.ul``;
+const List = styled.ul ``;
 
-const ListItem = styled.li`
+const ListItem = styled.li `
   a {
     color: rgba(52, 61, 72, 0.8);
     font-size: 14px;
@@ -57,6 +57,9 @@ const ListItem = styled.li`
   }
 `;
 
-export { List, ListItem };
+export {
+  List,
+  ListItem
+};
 
 export default FooterWrapper;

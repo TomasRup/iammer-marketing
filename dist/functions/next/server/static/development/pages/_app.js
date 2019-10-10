@@ -148,10 +148,10 @@ function _extends() {
 
 /***/ }),
 
-/***/ "./pages/_app.js":
-/*!***********************!*\
-  !*** ./pages/_app.js ***!
-  \***********************/
+/***/ "./pages/_app.jsx":
+/*!************************!*\
+  !*** ./pages/_app.jsx ***!
+  \************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -165,7 +165,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _redq_reuse_modal_es_index_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @redq/reuse-modal/es/index.css */ "../../node_modules/@redq/reuse-modal/es/index.css");
 /* harmony import */ var _redq_reuse_modal_es_index_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_redq_reuse_modal_es_index_css__WEBPACK_IMPORTED_MODULE_3__);
 
-var _jsxFileName = "/Users/trupsys/Personal/iammer-marketing/packages/landing/pages/_app.js";
+var _jsxFileName = "/Users/trupsys/Personal/iammer-marketing/packages/landing/pages/_app.jsx";
 
 
 
@@ -196,13 +196,13 @@ var _jsxFileName = "/Users/trupsys/Personal/iammer-marketing/packages/landing/pa
 /***/ }),
 
 /***/ 0:
-/*!****************************************!*\
-  !*** multi private-next-pages/_app.js ***!
-  \****************************************/
+/*!*****************************************!*\
+  !*** multi private-next-pages/_app.jsx ***!
+  \*****************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! private-next-pages/_app.js */"./pages/_app.js");
+module.exports = __webpack_require__(/*! private-next-pages/_app.jsx */"./pages/_app.jsx");
 
 
 /***/ }),
