@@ -1,10 +1,10 @@
 import styled from 'styled-components';
 import Mail from 'common/src/assets/image/app/mail.svg';
 
-export const DiscountWrapper = styled.div`
+export const DiscountWrapper = styled.div `
   text-align: left;
 `;
-export const ButtonWrapper = styled.div`
+export const ButtonWrapper = styled.div `
   position: relative;
   @media screen and (max-width: 991px) and (min-width: 767px) {
     display: flex;
@@ -31,7 +31,7 @@ export const ButtonWrapper = styled.div`
     }
   }
 `;
-export const EmailInputWrapper = styled.div`
+export const EmailInputWrapper = styled.div `
   position: relative;
   width: 85%;
   @media (max-width: 768px) {
@@ -84,7 +84,7 @@ export const EmailInputWrapper = styled.div`
   }
 `;
 
-export const DiscountLabel = styled.div`
+export const DiscountLabel = styled.div `
   font-family: 'Open Sans', sans-serif;
   display: inline-block;
   border-radius: 4em;

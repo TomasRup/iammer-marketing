@@ -8,9 +8,7 @@
     "start": "next start",
     "export": "next build && next export",
     "docz:dev": "docz dev",
-    "docz:build": "docz build",
-    "now-build": "next build && next export -o dist",
-    "netlify-build": "next build && next export"
+    "docz:build": "docz build"
   },
   "dependencies": {
     "@glidejs/glide": "^3.3.0",
