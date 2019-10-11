@@ -20,17 +20,34 @@ import { DrawerProvider } from 'common/src/contexts/DrawerContext';
 import FaqSection from '../containers/Saas/FaqSection';
 
 export default () => {
+
+  const initGoogleTagManager = () => {
+    return {
+      __html: `
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments)}
+      gtag('js', new Date());
+      gtag('config', 'UA-149861691-1');
+      `
+    };
+  };
+
   return (
     <ThemeProvider theme={saasTheme}>
       <Fragment>
         <Head>
-          <title>Iammer.io | In-app Messaging Platform</title>
-          <meta name="Description" content="React next landing page" />
+          <title>Iammer.io | In-App Messaging Platform</title>
+          <meta name="Description" content="In-App Messaging Platform" />
           <meta name="theme-color" content="#ec5555" />
           <link
-            href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i"
+            href="//fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i"
             rel="stylesheet"
           />
+          <script async src="//www.googletagmanager.com/gtag/js?id=UA-149861691-1"></script>
+          <script dangerouslySetInnerHTML={initGoogleTagManager()} />
+          <link rel="dns-prefetch" href="//fonts.googleapis.com"></link>
+          <link rel="dns-prefetch" href="//fonts.gstatic.com"></link>
+          <link rel="dns-prefetch" href="//www.googletagmanager.com"></link>
         </Head>
         <ResetCSS />
         <GlobalStyle />

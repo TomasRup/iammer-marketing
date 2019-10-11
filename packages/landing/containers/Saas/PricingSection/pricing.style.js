@@ -1,7 +1,9 @@
 import styled from 'styled-components';
-import { themeGet } from 'styled-system';
+import {
+  themeGet
+} from 'styled-system';
 
-const PricingTable = styled.div`
+const PricingTable = styled.div `
   border: 1px solid #f2f4f7;
   border-radius: 5px;
   padding: 60px 45px;
@@ -12,22 +14,22 @@ const PricingTable = styled.div`
   }
 `;
 
-const PricingHead = styled.div`
+const PricingHead = styled.div `
   margin-bottom: 40px;
 `;
 
-const PricingPrice = styled.div`
+const PricingPrice = styled.div `
   margin-bottom: 30px;
 `;
 
-const PricingButton = styled.div`
+const PricingButton = styled.div `
   text-align: center;
   margin-bottom: 55px;
 `;
 
-const PricingList = styled.div``;
+const PricingList = styled.div ``;
 
-const ListItem = styled.div`
+const ListItem = styled.div `
   display: flex;
   margin-bottom: 19px;
   &:last-child {
@@ -39,7 +41,7 @@ const ListItem = styled.div`
   }
 `;
 
-const SwitchWrapper = styled.div`
+const SwitchWrapper = styled.div `
   text-align: center;
   margin-top: 20px;
   .reusecore__switch {
@@ -78,7 +80,7 @@ const SwitchWrapper = styled.div`
   }
 `;
 
-const PricingButtonWrapper = styled.div`
+const PricingButtonWrapper = styled.div `
   text-align: center;
   margin-top: 30px;
   .reusecore__button {
@@ -104,8 +106,8 @@ const PricingButtonWrapper = styled.div`
       border-left-color: transparent;
     }
     &.active-item {
-      color: #5167db;
-      border-color: #5167db;
+      color: #436A73;
+      border-color: #436A73;
     }
     @media (max-width: 575px) {
       font-size: 14px;

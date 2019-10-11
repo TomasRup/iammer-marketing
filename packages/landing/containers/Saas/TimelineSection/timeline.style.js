@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 
-export const TimelineWrapper = styled.div``;
+export const TimelineWrapper = styled.div ``;
 
-export const TimelineDot = styled.div`
+export const TimelineDot = styled.div `
   width: 20px;
   height: 20px;
   border-radius: 50%;
@@ -36,7 +36,7 @@ export const TimelineDot = styled.div`
   }
 `;
 
-export const TimelineItem = styled.div`
+export const TimelineItem = styled.div `
   position: relative;
   display: flex;
   align-items: center;
@@ -57,7 +57,7 @@ export const TimelineItem = styled.div`
   &:hover {
     ${TimelineDot} {
       &:after {
-        background: #5268db;
+        background: #436A73;
       }
     }
   }
@@ -91,15 +91,15 @@ export const TimelineItem = styled.div`
   }
 `;
 
-export const TimelineIndex = styled.div``;
+export const TimelineIndex = styled.div ``;
 
-export const TimelineContent = styled.div`
+export const TimelineContent = styled.div `
   margin-left: 30px;
   @media (max-width: 480px) {
     margin-left: 20px;
   }
 `;
 
-export const Hidden = styled.div`
+export const Hidden = styled.div `
   overflow: hidden;
 `;

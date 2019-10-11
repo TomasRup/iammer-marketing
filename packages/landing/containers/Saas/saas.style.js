@@ -1,7 +1,11 @@
-import styled, { createGlobalStyle } from 'styled-components';
-import { themeGet } from 'styled-system';
+import styled, {
+  createGlobalStyle
+} from 'styled-components';
+import {
+  themeGet
+} from 'styled-system';
 
-export const GlobalStyle = createGlobalStyle`
+export const GlobalStyle = createGlobalStyle `
   body{
     font-family: 'Roboto', sans-serif;
   }
@@ -112,13 +116,13 @@ export const GlobalStyle = createGlobalStyle`
     color: ${themeGet('colors.white', '#ffffff')} !important;
 
     &.alt {
-      background-color: ${themeGet('colors.primary', '#5268db')} !important;
+      background-color: ${themeGet('colors.primary', '#436A73')} !important;
       box-shadow: 0px 9px 20px -5px rgba(82, 104, 219, 0.57) !important;
     }   
   }
 `;
 
-export const ContentWrapper = styled.div`
+export const ContentWrapper = styled.div `
   position: relative;
   overflow: hidden;
   a:-webkit-any-link {
@@ -203,4 +207,4 @@ export const ContentWrapper = styled.div`
   }
 `;
 
-export const ButtonGroup = styled.div``;
+export const ButtonGroup = styled.div ``;
